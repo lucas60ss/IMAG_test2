@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Marmelad&display=swap");
+.container {
+  background-image: url(../public/images/background.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  //   height: 100vh;
+  min-width: 1125px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .top {
+    margin-top: 40px;
+    width: 894px;
+    margin-bottom: 50px;
+
+    // padding-bottom: 80px;
+    p {
+      height: 40px;
+      font-size: 84px;
+      margin-top: 0px;
+      margin-bottom: 50px;
+      color: rgb(8, 88, 54);
+      font-weight: 500;
+      font-family: "Marmelad";
+    }
+    // .text2 {
+    //   margin-bottom: 80px;
+    // }
+  }
+  .middleIMG {
+    width: 894px;
+    height: 952px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+
+    .moutain1 {
+      position: absolute;
+      // width: 75vw;
+      // height: 55vh;
+      height: 810px;
+      // width: 842px;
+      bottom: 15px;
+      z-index: 10;
+    }
+    .image2 {
+      // max-width: 38vw;
+      //   max-height: 40vw;
+      position: absolute;
+      // width: 420px;
+      height: 421px;
+      top: 20px;
+      left: 40px;
+      z-index: 0;
+    }
+  }
+  .buttons {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    button {
+      font-family: "Marmelad";
+
+      //   word-spacing: 20px;
+      margin-top: 20px;
+      // width: 80vw;
+      // height: 60px;
+      width: 894px;
+      height: 148px;
+      font-size: 75px;
+      background: rgb(240, 235, 241, 0.2);
+      color: rgb(145, 71, 180);
+      border: 3px solid white;
+      border-radius: 10px;
+      &:hover {
+        background: #d1b4dd;
+      }
+      cursor: pointer;
+    }
+    .donload {
+      color: rgb(8, 88, 54);
+      background: white;
+    }
+  }
+}
